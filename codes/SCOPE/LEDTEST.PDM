@@ -1,0 +1,109 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\SCOPE\pack2
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WIN98\SYSTEM\prjKnob.ocx=
+C:\WIN98\SYSTEM\NKnob32.ocx=
+C:\WIN98\SYSTEM\KnobsControl.ocx=
+C:\WIN98\SYSTEM\CBOTKNOB.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\My Documents\SCOPE\ledtest.exe=Yes
+C:\WIN98\SYSTEM\MSVBVM60.DLL=Yes
+C:\WIN98\SYSTEM\OLEAUT32.DLL=Yes
+C:\WIN98\SYSTEM\OLEPRO32.DLL=Yes
+C:\WIN98\SYSTEM\ASYCFILT.DLL=Yes
+C:\WIN98\SYSTEM\STDOLE2.TLB=Yes
+J:\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\My Documents\SCOPE\INPOUT32.DLL=Yes
+C:\WIN98\SYSTEM\COMDLG32.OCX=Yes
+C:\WIN98\SYSTEM\COMCTL32.OCX=Yes
+C:\WIN98\SYSTEM\PICCLP32.OCX=Yes
+C:\WIN98\SYSTEM\CBOTKNOB.OCX=Yes
+C:\WIN98\SYSTEM\KnobsControl.ocx=Yes
+C:\WIN98\SYSTEM\NKnob32.ocx=Yes
+C:\WIN98\SYSTEM\prjKnob.ocx=Yes
+J:\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+J:\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WIN98\SYSTEM\VB6STKIT.DLL=Yes
+J:\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\My Documents\SCOPE\ledtest.exe=$(AppPath)
+C:\WIN98\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+J:\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\My Documents\SCOPE\INPOUT32.DLL=$(AppPath)
+C:\WIN98\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\PICCLP32.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\CBOTKNOB.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\KnobsControl.ocx=$(WinSysPath)
+C:\WIN98\SYSTEM\NKnob32.ocx=$(WinSysPath)
+C:\WIN98\SYSTEM\prjKnob.ocx=$(WinSysPath)
+J:\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+J:\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WIN98\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+J:\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\SCOPE\ledtest.exe=No
+C:\My Documents\SCOPE\INPOUT32.DLL=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Project1]
+Icon1=ledtest.EXE
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\My Documents\SCOPE\pack2
+ProjectFolder=C:\My Documents\SCOPE
+ServerSideCab=
+File1=C:\My Documents\SCOPE\pack2\setup.exe
+File2=C:\My Documents\SCOPE\pack2\Setup.Lst
+File3=C:\My Documents\SCOPE\pack2\ledtest.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

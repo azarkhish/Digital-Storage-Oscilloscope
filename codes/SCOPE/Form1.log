@@ -1,0 +1,38 @@
+Line 193: Class KnobOCXControl.Knob of control clock_selector was not a loaded control class.
+Line 211: Class prjKnob.Knob of control intensity was not a loaded control class.
+Line 221: Class KnobOCXControl.Knob of control ch1_range was not a loaded control class.
+Line 239: Class prjKnob.Knob of control focus was not a loaded control class.
+Line 249: Class KnobOCXControl.Knob of control ch2_range was not a loaded control class.
+Line 199: The property name _ExtentX in clock_selector is invalid.
+Line 200: The property name _ExtentY in clock_selector is invalid.
+Line 201: The property name MaximumValue in clock_selector is invalid.
+Line 203: The property name MajorTicks in clock_selector is invalid.
+Line 204: The property name MinorTicks in clock_selector is invalid.
+Line 205: The property name ForceStdValue in clock_selector is invalid.
+Line 207: The property name Reg in clock_selector is invalid.
+Line 208: The property name RememberValue in clock_selector is invalid.
+Line 209: The property name UniqueID in clock_selector is invalid.
+Line 217: The property name _ExtentX in intensity is invalid.
+Line 218: The property name _ExtentY in intensity is invalid.
+Line 219: The property name Max in intensity is invalid.
+Line 227: The property name _ExtentX in ch1_range is invalid.
+Line 228: The property name _ExtentY in ch1_range is invalid.
+Line 229: The property name MaximumValue in ch1_range is invalid.
+Line 231: The property name MajorTicks in ch1_range is invalid.
+Line 232: The property name MinorTicks in ch1_range is invalid.
+Line 233: The property name ForceStdValue in ch1_range is invalid.
+Line 235: The property name Reg in ch1_range is invalid.
+Line 236: The property name RememberValue in ch1_range is invalid.
+Line 237: The property name UniqueID in ch1_range is invalid.
+Line 245: The property name _ExtentX in focus is invalid.
+Line 246: The property name _ExtentY in focus is invalid.
+Line 247: The property name Value in focus is invalid.
+Line 255: The property name _ExtentX in ch2_range is invalid.
+Line 256: The property name _ExtentY in ch2_range is invalid.
+Line 257: The property name MaximumValue in ch2_range is invalid.
+Line 259: The property name MajorTicks in ch2_range is invalid.
+Line 260: The property name MinorTicks in ch2_range is invalid.
+Line 261: The property name ForceStdValue in ch2_range is invalid.
+Line 263: The property name Reg in ch2_range is invalid.
+Line 264: The property name RememberValue in ch2_range is invalid.
+Line 265: The property name UniqueID in ch2_range is invalid.

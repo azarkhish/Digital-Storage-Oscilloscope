@@ -1,0 +1,109 @@
+[Root]
+Most Recent Package=dso
+
+
+[Package|dso|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\SCOPE\pack1
+
+[Package|dso|Configure DAO ISAMs]
+Applicable=No
+
+[Package|dso|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|dso|Files Found]
+
+[Package|dso|Files Released]
+
+[Package|dso|Missing Dependency Information]
+C:\My Documents\SCOPE\ocx\prjKnob.ocx=
+C:\My Documents\SCOPE\ocx\NKnob32.ocx=
+C:\My Documents\SCOPE\ocx\KnobsControl.ocx=
+C:\My Documents\SCOPE\ocx\CBOTKNOB.OCX=
+
+[Package|dso|Out-of-Date Dependency Information]
+
+[Package|dso|Files Added]
+
+[Package|dso|Files Removed]
+
+[Package|dso|Files In Project]
+C:\My Documents\SCOPE\TIMERINP2.exe=Yes
+C:\WIN98\SYSTEM\MSVBVM60.DLL=Yes
+C:\WIN98\SYSTEM\OLEAUT32.DLL=Yes
+C:\WIN98\SYSTEM\OLEPRO32.DLL=Yes
+C:\WIN98\SYSTEM\ASYCFILT.DLL=Yes
+C:\WIN98\SYSTEM\STDOLE2.TLB=Yes
+J:\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\My Documents\SCOPE\INPOUT32.DLL=Yes
+C:\WIN98\SYSTEM\COMDLG32.OCX=Yes
+C:\WIN98\SYSTEM\COMCTL32.OCX=Yes
+C:\WIN98\SYSTEM\PICCLP32.OCX=Yes
+C:\My Documents\SCOPE\ocx\CBOTKNOB.OCX=Yes
+C:\My Documents\SCOPE\ocx\KnobsControl.ocx=Yes
+C:\My Documents\SCOPE\ocx\NKnob32.ocx=Yes
+C:\My Documents\SCOPE\ocx\prjKnob.ocx=Yes
+J:\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+J:\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WIN98\SYSTEM\VB6STKIT.DLL=Yes
+J:\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|dso|Configure Registry Files]
+Applicable=No
+
+[Package|dso|Configure Remote Servers]
+Applicable=No
+
+[Package|dso|Install Locations]
+C:\My Documents\SCOPE\TIMERINP2.exe=$(AppPath)
+C:\WIN98\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+J:\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\My Documents\SCOPE\INPOUT32.DLL=$(AppPath)
+C:\WIN98\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\PICCLP32.OCX=$(WinSysPath)
+C:\My Documents\SCOPE\ocx\CBOTKNOB.OCX=$(WinSysPath)
+C:\My Documents\SCOPE\ocx\KnobsControl.ocx=$(WinSysPath)
+C:\My Documents\SCOPE\ocx\NKnob32.ocx=$(WinSysPath)
+C:\My Documents\SCOPE\ocx\prjKnob.ocx=$(WinSysPath)
+J:\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+J:\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WIN98\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+J:\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|dso|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\SCOPE\TIMERINP2.exe=No
+C:\My Documents\SCOPE\INPOUT32.DLL=No
+
+[Package|dso|Distribution]
+Type=single
+Size=
+Title=ehsan DSO version 1.0
+
+[Package|dso|IconGroups]
+Group0=ehsan DSO version 1.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|dso|ehsan DSO version 1.0]
+Icon1=TIMERINP2.EXE
+Title1=ehsan DSO version 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|dso|Package]
+PackageFolder=C:\My Documents\SCOPE\pack1
+ProjectFolder=C:\My Documents\SCOPE
+ServerSideCab=
+File1=C:\My Documents\SCOPE\pack1\setup.exe
+File2=C:\My Documents\SCOPE\pack1\Setup.Lst
+File3=C:\My Documents\SCOPE\pack1\TIMERINP2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

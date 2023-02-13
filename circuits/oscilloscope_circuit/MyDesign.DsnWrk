@@ -1,0 +1,12 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Documents\Documents.PrjPcb
+[Project2]
+ProjectPath=Documents\analog\analog.PrjPcb
+[Project3]
+ProjectPath=Documents\digital\digital.PrjPcb
+[Project4]
+ProjectPath=Documents\io\io.PrjPcb
+[Project5]
+ProjectPath=Documents\clock\clock.PrjPcb
